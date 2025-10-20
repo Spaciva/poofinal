@@ -1,0 +1,11 @@
+<Context>
+    <Resource name="jdbc/BiblioDS" auth="Container"
+              type="javax.sql.DataSource"
+
+    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/biblioteca_metropolis?
+    useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC"
+    username="root" password=""
+    maxActive="20" maxIdle="10" maxWait="10000"/>
+</Context>
