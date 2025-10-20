@@ -14,4 +14,4 @@ public class DB {
     (ClassNotFoundException e) { throw new RuntimeException(e);} }
     public static Connection get() throws SQLException { return
             DriverManager.getConnection(URL, USER, PASS);
-    }
+    }}
